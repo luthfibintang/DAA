@@ -1,11 +1,11 @@
 kelipatan3 = 3
 kelipatan4 = 4
-kpk = 1
+lcm = 1
 
 while True:
-    if kpk % kelipatan3 == 0 and kpk % kelipatan4 == 0:
+    if lcm % kelipatan3 == 0 and lcm % kelipatan4 == 0:
         break
     else:
-        kpk += 1
+        lcm += 1
 
-print("KPK dari", kelipatan3, "dan", kelipatan4, "adalah", kpk)
+print("KPK dari", kelipatan3, "dan", kelipatan4, "adalah", lcm)
